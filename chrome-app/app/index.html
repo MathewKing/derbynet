@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BeagleTerm</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  </head>
+
+<body>
+    <input type="text" id="derby_url" value="100.115.92.199">
+    <input type="button" id="connect" value="Connect">
+    <br>
+    <br>
+    <select id="portDropdown" class="form-control"></select>
+    <input type="button" id="listen" value="Listen">
+    <br>
+    <br>
+    <input type="button" id="results" value="Fake Results" style="display: none;">
+    <input type="button" id="arm" value="Arm" style="display: none;">
+    <!-- NOTE: hterm import should come first. Since index.js uses hterm -->
+    <script src="js/http_connection.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
